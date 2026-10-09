@@ -3,7 +3,7 @@ import { useState } from 'react'
 import {
   Search, Bell, Coins, MapPin, ChevronRight, Menu, X,
   House, Users, Newspaper, UserRound, CarFront, Bike,
-  ShoppingBag, Shirt, Sofa, Heart, Zap, Map, Compass,
+  ShoppingBag, Shirt, Heart, Zap, Map, Compass,
   Bus, CircleUserRound
 } from 'lucide-react'
 import './styles.css'
@@ -95,7 +95,7 @@ const avatars = [
   { name: 'Zara', style: 'Trendsetter', color: '#f4d27c', initials: 'Z' },
 ]
 
-const categories = ['All', 'Homes', 'Cars', 'Motorcycles', 'Vans', 'Napep', 'Bicycles']
+const = ['All', 'Homes', 'Cars', 'Motorcycles', 'Vans', 'Napep', 'Bicycles']
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('Home')
