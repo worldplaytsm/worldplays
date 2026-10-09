@@ -1,7 +1,7 @@
-import { useMemo, useState } from 'react'
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Stars } from '@react-three/drei'
 import {
+  House, Users, Newspaper, UserRound, Coins, ShoppingBag,
+  CarFront, Sofa, Shirt, LockKeyhole
+} from 'lucide-react'
   House, Users, Newspaper, UserRound, Coins, ShoppingBag,
   CarFront, Sofa, Shirt, Check, LockKeyhole, RotateCcw
 } from 'lucide-react'
