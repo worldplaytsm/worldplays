@@ -95,7 +95,7 @@ const avatars = [
   { name: 'Zara', style: 'Trendsetter', color: '#f4d27c', initials: 'Z' },
 ]
 
-const = ['All', 'Homes', 'Cars', 'Motorcycles', 'Vans', 'Napep', 'Bicycles']
+const categories = ['All', 'Homes', 'Cars', 'Motorcycles', 'Vans', 'Napep', 'Bicycles']
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('Home')
